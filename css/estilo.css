@@ -1,33 +1,27 @@
-/********
-
-Cabeçalho do site - menu 
-
-
-*********/
-
+/*cabecalho*/
 header img {
     height: 70px;
     width: 70px;
 }
 
+/*Conteudo principal*/
+main{
+    min-height: 500px;
+}
 
+/*Banner*/
+#section-banners img {
+    height: 500px;
+}
 
-/******************
-
-Conteudo
-
-************/
-
-/**/
+/*Produtos mais vendidos*/
 
 #section-vendidos {
     text-align: center;
 }
 
 #section-vendidos h2 {
-    text-align: center;
     font-weight: bold;
-
     padding: 20px;
 }
 
@@ -42,65 +36,54 @@ Conteudo
     border-radius: 10px;
 }
 
-#section-vendidos .preco {
+#section-vendidos .preco{
     color: red;
     font-size: 18px;
     font-weight: bold;
 }
 
-/*************
-    Rodape
-*************/
+#section-vendidos 
+/*Rodapé*/
 
 footer {
     text-align: center;
 }
 
 footer p {
-    text-align: center;
     font-weight: bold;
-
     padding: 10px;
 }
 
-/*Botão ao Voltar topo*/
+/*Botao voltar ao topo*/
 
-#voltar-topo {
+#voltar-topo{
     position: fixed;
-    bottom: 5px;
+    bottom: 50px;
     right: 50px;
+}
+/* Pagina de login */
 
+#section-login {
+    margin-top: 100px;
 }
 
-/* ****************
-    página de login
-    
-    ********************/
-
-#section-login h1 {
+#section-login h1{
     text-align: center;
-
 }
 
-#section-login input {
+#section-login h2{
     width: 100%;
-
 }
 
-#section-banners img {
-    height: 500px;
-}
+/* Formulario Cadastro*/
 
-
-/* Box de informações de cadastro*/
-#panel,
-#flip {
+#section-cadastro{
     padding: 5px;
     text-align: center;
     background-color: #fff;
 }
 
-#panel {
+#form-cadastrar {
     padding: 50px;
     display: none;
 }
